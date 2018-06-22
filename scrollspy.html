@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Autor del articulo, etc">
+  <meta name="description" content="descripcion del documento">
+  <meta name="keywords" content="palabras clave">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <!-- Mis estilos CSS -->
+  <link rel="stylesheet" href="css/scrollspy.css">
+
+  <title>ScrollSpy</title>
+</head>
+<body data-spy="scroll" data-target="#menu">
+  <nav id="menu" class="navbar navbar-expand navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#seccion-1">Seccion 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seccion-2">Seccion 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seccion-3">Seccion 3</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!--fin de navbar-->
+
+  <!--inicio de ***-->
+  <div class="container-fluid">
+    <div id="seccion-1" class="mt-5 pt-5">
+      <h1 class="display-4">Sección 1</h1>
+      <img src="img/slider-1.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div id="seccion-2" class="mt-5 pt-5">
+      <h1 class="display-4">Sección 2</h1>
+      <img src="img/slider-2.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div id="seccion-3" class="mt-5 pt-5">
+      <h1 class="display-4">Sección 3</h1>
+      <img src="img/slider-3.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <!--fin de ***-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap/bootstrap.js"></script>
+  <script>
+    $(window).scroll(function() {
+      if ($("#menu").offset().top > 50) {
+        $("#menu").addClass("bg-dark");
+      } else {
+        $("#menu").removeClass("bg-dark");
+      }
+    });
+  </script>
+</body>
+</html>

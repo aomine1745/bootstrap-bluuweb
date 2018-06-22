@@ -1,0 +1,18 @@
+.borde{
+	border: 1px solid #000000;
+	text-align: center;
+	height: 50px;
+}
+.color1{
+	background-color: #eeeeee;
+}
+.color2{
+	background-color: #fcc314;
+}
+.color3{
+	background-color: #94ac3c;
+}
+.color4{
+	background-color: #295ba7;
+	height: 500px;
+}

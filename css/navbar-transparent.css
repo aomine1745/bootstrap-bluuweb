@@ -1,0 +1,42 @@
+*{
+	scroll-behavior: smooth;
+}
+.size-aomine{
+	font-size: 1.2rem;
+}
+.size-aomine-brand{
+	font-size: 1.3rem;
+} 
+.fondo{
+	background-image: url(../img/background.jpg);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+.bg-aomine{
+	/*background-color: #ffffff00;*/
+	background-color: #00000033; 
+}
+.bg-aomine{
+	transition: all 0.5s ease;
+}
+.navbar .navbar-nav li a:hover{
+	color: #e8a030 !important;
+}
+.navbar .navbar-nav li .dropdown-menu{
+	background: #00000033 ;
+	border: none;	
+}
+.navbar .navbar-nav li .dropdown-menu a{
+	color: #ffffff;	
+}
+.navbar .navbar-nav li .dropdown-menu a:hover{
+	color: #e8a030 !important;
+	background:none ;	
+}
+.hr-aomine{
+	background: white; 
+	margin: 0;
+	padding: 0;
+	height: 1px;
+}
