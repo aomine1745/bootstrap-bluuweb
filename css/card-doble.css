@@ -1,0 +1,22 @@
+.img-size{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+}
+.redes{
+	width: 15px;
+	height: 15px;
+}
+.imagen{
+	background-image: url(../img/card.jpg);
+	background-position: center;
+	background-size: 300px 400px;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 400px;
+	transition: all 0.5s ease;
+}
+.imagen:hover{
+	background-size: 400px 500px;
+	transition: all 0.5s ease;
+}
